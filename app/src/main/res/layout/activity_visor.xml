@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTitulo"
+        android:text="@string/titu"
+        android:textColor="@color/abc_primary_text_disable_only_material_dark"
+        android:textAlignment="center">
+    </TextView>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/altavoz"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/ivPrincipal"/>
+
+    <HorizontalScrollView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/anonymous"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/ivAnon"
+                android:padding="20dp"/>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/daftpunk"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/ivPunk"
+                android:padding="20dp"/>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/drone"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/ivDrone"
+                android:padding="20dp"/>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/gamming"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/ivGame"
+                android:padding="20dp"/>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/ganesha"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/ivGanesha"
+                android:padding="20dp"/>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/oso"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/ivOso"
+                android:padding="20dp"/>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/skull"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/ivSkull"
+                android:padding="20dp"/>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/sonrisa"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/ivSmile"
+                android:padding="20dp"/>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/altavoz"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/ivAlt"
+                android:padding="20dp"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

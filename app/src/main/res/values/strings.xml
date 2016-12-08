@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">testapp_v.0.4.1</string>
+
+    <string name="hello_world">Hello World!</string>
+    <string name="miguel">Miguel Guadalupe</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="botonA">A</string>
+    <string name="botonB">B</string>
+    <string name="flash">Lampara</string>
+    <string name="toast">Toast</string>
+    <string name="text_hint">Text Hint</string>
+    <string name="view_text">Precione el boton para acceder a las opciones de linterna</string>
+    <string name="imgGaleria">Img</string>
+    <string name="titu">Imagen por defecto</string>
+
+    <string name="cadena">Escribe tu mensage..</string>
+    <string name="datoTitulo">Titulo</string>
+    <string name="btnEnviar">Enviar</string>
+
+    <string name="imbox">Usted tiene: 1 nuevo mensaje </string>
+    <string name="btnLeer">Leer Mensaje </string>
+</resources>
